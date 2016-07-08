@@ -115,6 +115,7 @@ API specification
       * Start monitoring
       * param: `instance_id` -- a short identifier (such as '3c657dbc')
         for the environment instance  
+      * param: `directory` -- The directory where to store
       * param: `force` (default=False) -- Clear out existing training
         data from this directory (by deleting every file
         prefixed with "openaigym.")
